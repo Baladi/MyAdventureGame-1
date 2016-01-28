@@ -11,7 +11,7 @@
     tools:context="web2.myapplication.MainActivity">
 
     <TextView
-        android:text="Hello World!"
+        android:text="Bonjour !"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView" />
@@ -21,8 +21,10 @@
         android:layout_height="wrap_content"
         android:text="New Button"
         android:id="@+id/button"
+        android:layout_marginTop="51dp"
         android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="89dp" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp" />
 </RelativeLayout>
